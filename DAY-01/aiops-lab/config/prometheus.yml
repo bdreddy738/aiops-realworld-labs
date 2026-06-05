@@ -1,7 +1,33 @@
+# Global configuration section
 global:
+
+  # Prometheus will collect (scrape) metrics from configured targets
+  # every 15 seconds.
+  # Example:
+  # 10:00:00
+  # 10:00:15
+  # 10:00:30
+  # 10:00:45
   scrape_interval: 15s
 
+# List of monitoring jobs
 scrape_configs:
+
+  # Logical name of the monitoring job
+  # Can be any name
+  # Here we are monitoring Node Exporter
   - job_name: 'node'
+
+    # Static targets section
     static_configs:
+
+      # Target endpoint from where Prometheus collects metrics
+      # node_exporter = container name
+      # 9100 = Node Exporter port
+      #
+      # Prometheus sends HTTP requests to:
+      # http://node_exporter:9100/metrics
+      #
+      # Docker network automatically resolves
+      # node_exporter to container IP
       - targets: ['node_exporter:9100']
