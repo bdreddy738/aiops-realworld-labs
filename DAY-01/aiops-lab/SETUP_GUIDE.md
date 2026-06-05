@@ -1,4 +1,4 @@
-# AIOps Lab Day-01: CPU Anomaly Detection Using Prometheus, Grafana, Python ML & Slack
+# AIOps Lab : CPU Anomaly Detection Using Prometheus, Grafana, Python ML & Slack
 
 ## Project Overview
 
