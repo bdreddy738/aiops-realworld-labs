@@ -1,4 +1,4 @@
-# Copyright (c) 2025 Rajinikanth Vadla
+# Copyright (c) 2026 cloudhiredofficial
 # All rights reserved.
 
 import requests

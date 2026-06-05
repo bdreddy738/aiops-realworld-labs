@@ -1,6 +1,6 @@
 # 🌟 AIOps Lab: CPU Anomaly Detection 🌟
 
-*Created by Rajinikanth Vadla*
+*Created by cloudhiredofficial*
 
 Welcome to the **AIOps Lab**, a powerful tool for monitoring CPU usage and detecting anomalies using **Prometheus, Grafana, and Machine Learning**! This project is designed to help you set up a **production-ready monitoring system** with ease.
 
@@ -100,6 +100,6 @@ stress-ng --cpu 2 --timeout 120s
 
 ## 🎉 Credits
 
-Developed by **Rajinikanth Vadla** © 2025. All rights reserved.
+Developed by **cloudhiredofficial** © 2026. All rights reserved.
 
 Enjoy your AIOps journey! 🚀
