@@ -1,6 +1,12 @@
 myenv/
 venv/
+**/myenv/
+**/venv/
 __pycache__/
 *.pyc
 .env
 .vscode/
+.idea/
+*.log
+cpu_metrics.csv
+model.joblib
